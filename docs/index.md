@@ -7,7 +7,7 @@ hero:
   text: 'New version of DMS Service'
   tagline: Uses Bun, Nitro, and Drizzle
   image:
-    src: /.vitepress/logo.svg
+    src: /logo.svg
     alt: Better DMS Service Logo
   actions:
     - theme: brand

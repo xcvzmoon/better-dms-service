@@ -5,9 +5,11 @@ export default defineConfig({
   title: 'Better DMS Service',
   description: 'New version of DMS Service using Bun, Nitro, and Drizzle',
   base: '/better-dms-service/',
+  cleanUrls: true,
+  assetsDir: 'assets',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/.vitepress/logo.svg',
+    logo: '/logo.svg',
 
     nav: [
       { text: 'Home', link: '/' },
