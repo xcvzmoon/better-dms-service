@@ -8,3 +8,6 @@ dist
 .env.local
 
 keys
+
+docs/.vitepress/dist
+docs/.vitepress/cache
